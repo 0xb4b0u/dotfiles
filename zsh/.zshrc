@@ -40,3 +40,10 @@ eval "$(fzf --zsh)"
 
 # Created by `pipx` on 2024-06-30 16:24:31
 export PATH="$PATH:/Users/babou/.local/bin"
+
+# Setting GPG TTY for signed git commits
+export GPG_TTY=$(tty)
+
+# Added nerdfetch to my prompt
+nerdfetch
+
